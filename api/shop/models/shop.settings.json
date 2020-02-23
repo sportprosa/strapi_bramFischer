@@ -1,0 +1,18 @@
+{
+  "info": {
+    "name": "Shop"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true,
+      "maxLength": 25
+    }
+  },
+  "connection": "default",
+  "collectionName": "shops"
+}
