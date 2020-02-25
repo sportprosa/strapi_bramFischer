@@ -27,25 +27,13 @@
     },
     "email": {
       "type": "email",
-      "required": true
+      "required": false
     },
     "contact": {
       "type": "biginteger",
-      "required": true
+      "required": false
     },
     "website": {
-      "type": "string"
-    },
-    "facebook": {
-      "type": "string"
-    },
-    "instagram": {
-      "type": "string"
-    },
-    "linkedin": {
-      "type": "string"
-    },
-    "youtube": {
       "type": "string"
     },
     "media": {
@@ -68,6 +56,12 @@
       "via": "related",
       "plugin": "upload",
       "required": false
+    },
+    "banner": {
+      "model": "file",
+      "via": "related",
+      "plugin": "upload",
+      "required": true
     }
   }
 }
