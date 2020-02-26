@@ -62,6 +62,10 @@
       "via": "related",
       "plugin": "upload",
       "required": true
+    },
+    "categories": {
+      "via": "shops",
+      "collection": "categories"
     }
   }
 }
